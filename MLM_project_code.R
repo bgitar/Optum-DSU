@@ -12,6 +12,7 @@ ds1 <- read.csv(file='C:/Users/bgitar/Documents/DSU/data/WA_Fn-UseC_-HR-Employee
 drop <- c("EmployeeCount","Over18")
 ds1 = ds1[,!(names(ds1) %in% drop)]
 
+#split dataset into test/train sets
 ds1_split <- initial_split(ds1, prop = .7)
 ds1_train1 <- training(ds1_split)
 ds1_test1 <- testing(ds1_split)
