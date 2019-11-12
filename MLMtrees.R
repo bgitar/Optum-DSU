@@ -296,8 +296,7 @@ bor1.train
 
 rm( 
   list = ls() 
-) # Clears global environment of all visible objects (some hidden objects 
-#   # may remain) 
+) # Clears global environment of all visible objects 
 
 
 
