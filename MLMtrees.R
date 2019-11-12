@@ -161,9 +161,9 @@ confusionMatrix (rf1.test,ds1_test$Attrition)
 ##################################
 
 ############ 
-require(xgboost) # You should learn to become very familiar with this package 
+require(xgboost) # Use XG boost to try an improve performance with gradient boosting 
 #                # XGBoost is one of the most commonly used classification 
-#                # algorithms because it works almost _too_ well. 
+#                # algorithms because it works very well. 
 
 dtrain <-  
   xgb.DMatrix( # xgb specific data structure 
