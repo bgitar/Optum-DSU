@@ -1,3 +1,7 @@
+#The purpose of this program is to run 4 models using SMOTE technique 
+#to try and deal with class imbalance
+
+
 #packages needed
 library(caret)
 library(class)
