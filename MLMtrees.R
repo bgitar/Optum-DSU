@@ -27,6 +27,7 @@ ds1_test <- testing(ds1_split)
 setDT(ds1_train)
 setDT(ds1_test)
 
+#create subset of variables to use in random forest
 vars2Use <- c('YearsInCurrentRole', 'StockOptionLevel', 'Gender2', 'Education', 'DistanceFromHome', 'Age', 'MonthlyIncome', 'JobSatisfaction', 'BusinessTravel2', 'WorkLifeBalance', 'PercentSalaryHike', 'NumCompaniesWorked','OverTime2')
 vars2Use
 
